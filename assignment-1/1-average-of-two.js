@@ -3,6 +3,11 @@
 
 function averageOfTwo(num1, num2) {
 	// your code here...
+	// let num3 = num1 + num2
+	// average = num3 / 2
+	// return average
+
+	return (num1 + num2)/2
 }
 
 console.log(averageOfTwo(3, 7)); // => 5.0
