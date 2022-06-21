@@ -4,6 +4,11 @@
 
 function doubler(numbers) {
 	// your code here...
+	let result = []
+	for(let i = 0; i < numbers.length; i++){
+		result.push (numbers[i] * 2)
+	}
+	return result
 }
 
 console.log(doubler([1, 2, 3, 4])); // => [2, 4, 6, 8]

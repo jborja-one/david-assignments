@@ -5,6 +5,8 @@
 
 function combineArray(array1, array2) {
 	// your code here...
+	// return [...array1, ...array2]
+	return array1.concat(array2)
 }
 
 console.log(combineArray([1, 2], [3, 4])); // => [1, 2, 3, 4]
