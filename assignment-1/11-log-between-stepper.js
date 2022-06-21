@@ -5,6 +5,9 @@
 
 function logBetweenStepper(min, max, step) {
 	// your code here...
+	for(let i = min; i <= max; i += step){
+		console.log(i)
+	}
 }
 
 // Examples:

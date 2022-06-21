@@ -3,6 +3,11 @@
 
 function sumArray(array) {
 	// your code here...
+	let storage = 0
+	for(let i = 0; i < array.length; i++){
+		storage += array[i]
+	}
+	return storage
 }
 
 console.log(sumArray([5, 6, 4])); // => 15
