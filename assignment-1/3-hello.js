@@ -6,6 +6,7 @@
 
 function hello(str) {
 	// your code here...
+
 }
 
 hello('cat'); // prints "Hello, cat"

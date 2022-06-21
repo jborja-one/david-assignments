@@ -4,6 +4,7 @@
 
 function averageOfFour(num1, num2, num3, num4) {
 	// your code here...
+	return (num1 + num2 + num3 + num4)/4
 }
 
 console.log(averageOfFour(10, 10, 15, 5)); // => 10

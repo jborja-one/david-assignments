@@ -3,6 +3,11 @@
 
 function isFive(num) {
 	// your code here...
+	if(num === 5){
+		return true
+	} else{
+		return false
+	}
 }
 
 console.log(isFive(5)); // => true
