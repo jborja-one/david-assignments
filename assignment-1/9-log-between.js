@@ -5,6 +5,11 @@
 
 function logBetween(lowNum, highNum) {
 	// your code here...
+	let result = []
+	for(let i = lowNum; i <= highNum; i++){
+		result.push(i)
+	}
+	console.log(result.toString())
 }
 
 logBetween(4, 6); // prints 4, 5, 6
