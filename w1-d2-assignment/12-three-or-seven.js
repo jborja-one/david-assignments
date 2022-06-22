@@ -5,6 +5,11 @@
 
 function threeOrSeven(num) {
 	// your code here...
+	if(num % 3 === 0 || num % 7 === 0){
+		return true
+	} else {
+		return false
+	}
 }
 
 console.log(threeOrSeven(3)); // => true

@@ -4,6 +4,9 @@
 
 function printFives(max) {
 	// your code here...
+	for(let i = 0; i < max; i += 5){
+		console.log(i)
+	}
 }
 
 // Example:

@@ -3,6 +3,7 @@
 
 function plusFive(num) {
 	// your code here...
+	return num + 5
 }
 
 console.log(plusFive(10)); // => 15
