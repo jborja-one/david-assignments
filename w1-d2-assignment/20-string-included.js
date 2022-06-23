@@ -4,6 +4,8 @@
 
 function eitherStringIncluded(sentence, word1, word2) {
 	// your code here...
+	if (sentence.includes(word1) || sentence.includes(word2)) return true;
+	return false;
 }
 
 console.log(eitherStringIncluded('how now brown cow?', 'panther', 'cow')); //=> true

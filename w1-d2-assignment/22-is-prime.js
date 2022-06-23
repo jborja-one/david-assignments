@@ -2,7 +2,11 @@
 //  Define a function isPrime(number) that returns true if number is prime. Otherwise, false. A number is prime if it is only divisible by 1 and itself.
 
 function isPrime(number) {
-	// your code here...
+	if(number < 2) return false;
+	for(let i = 2; i < number; i++) {
+		if(number % i == 0) return false;
+	}
+return true;
 }
 
 console.log(isPrime(2)); // => true
