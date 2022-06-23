@@ -5,7 +5,17 @@
 
 function wordWithinArray(array, word) {
 	// USING FOR LOOP
+	// for(let i = 0; i < array.length; i++){
+	// 	if(array[i] === word){
+	// 		return true;
+	// 	}
+	// }
+	// return false;
 	//USING indexOf()
+	if(array.indexOf(word) === -1){
+		return false;
+	}
+return true;
 }
 
 console.log(

@@ -3,7 +3,20 @@
 
 function eCounter(word) {
 	//for loop
-	//while loop
+	let counter = 0;
+	// for(let i = 0; i < word.length; i++) {
+	// 	if(word[i] === "e") counter++
+	// }
+	// return counter;
+	// while loop
+	let i = 0
+	while(i < word.length) {
+		if(word[i] === "e") {
+			counter++
+		}
+		i++
+	}
+	return counter
 }
 
 console.log(eCounter('apple')); // => 1
