@@ -3,6 +3,13 @@
 
 function removeFromArray(location, arr) {
 	// Your code here...
+	if (location === "FRONT"){
+		arr.shift()
+    } else if (location === "BACK"){
+		arr.pop()
+	} else{
+		console.log('ERROR')
+	}
 }
 
 testArray = [0, 1, 2, 3, 4];
