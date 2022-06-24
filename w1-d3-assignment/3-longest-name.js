@@ -6,8 +6,17 @@ function longestName(names) {
 	// Check each other name in the array starting from the second
 	// If the name we're checking is longer than our
 	// current longest, set that name to be the new longest
+	let result = ""
+	for (var i = 0; i < names.length; i++) {
+		let compare = names[i]
+		if (compare.length > result.length) {
+			result = compare
+		}
+	}
+	return result
 }
 
+let newnames = []
 testNames = [
 	'James',
 	'Patricia',
