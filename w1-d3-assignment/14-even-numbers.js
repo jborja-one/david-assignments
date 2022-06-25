@@ -4,6 +4,15 @@
 // Define this function using function expression syntax.
 
 // your code here...
+let evenNumbers = function(max) {
+    let arr = [];
+    for (let i = 0; i < max; i++) {
+        if (i % 2 === 0) {
+            arr.push(i);
+        }
+    }
+    return arr;
+}
 
 console.log(evenNumbers(7)); // [ 2, 4, 6 ]
 console.log(evenNumbers(12)); // [ 2, 4, 6, 8, 10 ]
