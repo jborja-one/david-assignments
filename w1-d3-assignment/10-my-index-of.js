@@ -3,6 +3,12 @@
 
 function myIndexOf(arr, target) {
 	// your code here...
+	for (var i = 0; i < arr.length; i++) {
+		if (arr[i] === target) {
+			return i;
+        }
+    }
+	return -1;
 }
 
 console.log(myIndexOf(['a', 'b', 'c', 'e'], 'c')); // 2

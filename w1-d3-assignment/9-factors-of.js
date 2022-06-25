@@ -7,11 +7,11 @@ function factorsOf(num) {
     let result = [];
 
     for (let i = 0; i <= num; i++) {
-        if (num % num[i] === 0) {
-            result.push(num[i]);
-            return result;
+        if (num % i === 0) {
+            result.push(i);
         }
     }
+    return result;
 }
 
 console.log(factorsOf(5)); // [ 1, 5 ]

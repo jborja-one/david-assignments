@@ -3,6 +3,12 @@
 
 function hasVowel(str) {
 	// your code here
+	for ( let i = 0; i < str.length; i++) {
+		if ( str[i] === 'a' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u' || str[i] === 'e'){
+			return true;
+		}
+	}
+	return false;
 }
 
 console.log(hasVowel('dog')); // true
