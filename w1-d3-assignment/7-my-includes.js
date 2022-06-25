@@ -3,7 +3,17 @@
 
 function myIncludes(arr, target) {
 	// your code here...
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] === target) {
+            return true;
+        }
+    }
+    return false;
 }
+
+
+
+
 
 console.log(myIncludes(['a', 'b', 'c', 'e'], 'c')); // true
 console.log(myIncludes(['a', 'b', 'c', 'e'], 'a')); // true

@@ -3,6 +3,17 @@
 
 // Define this function using function expression syntax.
 
+function factorsOf(num) {
+    let result = [];
+
+    for (let i = 0; i <= num; i++) {
+        if (num % num[i] === 0) {
+            result.push(num[i]);
+            return result;
+        }
+    }
+}
+
 console.log(factorsOf(5)); // [ 1, 5 ]
 console.log(factorsOf(8)); // [ 1, 2, 4, 8 ]
 console.log(factorsOf(9)); // [ 1, 3, 9 ]
