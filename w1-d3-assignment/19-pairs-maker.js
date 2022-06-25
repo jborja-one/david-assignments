@@ -3,6 +3,17 @@
 
 function pairsMaker(arr) {
 	// your code here
+	let result = [];
+	for (let i = 0; i < arr.length; i++) {
+		let element1 = arr[i];
+		for (let j = i + 1; j < arr.length; j++) {
+			let element2 = arr[j]
+			let pairs = [element1, element2]
+			console.log(pairs + '*********************')
+			result.push(pairs);
+		}
+	}
+	return result;
 }
 
 console.log(pairsMaker(['a', 'b', 'c', 'd'])); // =>

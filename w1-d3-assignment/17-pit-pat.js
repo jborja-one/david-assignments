@@ -3,6 +3,15 @@
 
 function pitPat(max) {
 	// your code here
+	let arr = []
+	for (let i = 0; i <= max; i++) {
+		if (i % 4 === 0 && i % 6 !== 0) {
+			arr.push(i)
+		} else if (i % 4 !== 0 && i % 6 === 0) {
+			arr.push(i)
+		}
+	}
+	return arr
 }
 
 console.log(pitPat(18)); // [ 4, 6, 8, 16, 18 ]

@@ -5,13 +5,15 @@
 
 function lastVowel(str) {
 	// your code here
-	for (let i = 0; i < str.length; i++) {
+	// let result = ''
 
-		str.toLowerCase()
-		if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u'){
+	for (let i = str.length - 1; i >= 0; i--) {
+		str.toLowerCase();
+		if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' || str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U'){
 			return str[i];
 		}
 	}
+	return null;
 }
 
 console.log(lastVowel('battery')); // 'e'
