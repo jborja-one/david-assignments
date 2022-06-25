@@ -7,9 +7,9 @@ function pairsMaker(arr) {
 	for (let i = 0; i < arr.length; i++) {
 		let element1 = arr[i];
 		for (let j = i + 1; j < arr.length; j++) {
-			let element2 = arr[j]
-			let pairs = [element1, element2]
-			console.log(pairs + '*********************')
+			let element2 = arr[j];
+			let pairs = [element1, element2];
+			console.log(pairs + '*********************');
 			result.push(pairs);
 		}
 	}
